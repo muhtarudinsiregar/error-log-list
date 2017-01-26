@@ -1,4 +1,7 @@
 # Error-log-list
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b2a17092851a4ef8bd0bca07c031c0c0)](https://www.codacy.com/app/muhtarudinOrganization/error-log-list?utm_source=github.com&utm_medium=referral&utm_content=muhtarudinsiregar/error-log-list&utm_campaign=badger)
+
 ======
 
 ## Angular 2
