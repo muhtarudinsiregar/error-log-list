@@ -19,6 +19,11 @@
 1. basedir=$(dirname "$(echo "$0" | sed -e 's,\\,/,g')") SyntaxError: missing ) after argument list
 
  https://github.com/gotwarlost/istanbul/issues/677
+
+## Homestead
+ 1. "No input file specified"
+ 
+ http://stackoverflow.com/questions/24274387/using-laravel-homestead-no-input-file-specified
  
 ## JSHint
 1. error : 'const' is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
