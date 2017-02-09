@@ -6,6 +6,11 @@
 
  http://stackoverflow.com/questions/35273106/angular2-share-data-between-components-using-services
  
+## Codeigniter
+1. Class 'TestCase' not found
+ 
+ https://github.com/kenjis/ci-phpunit-test/issues/39
+ 
 ## ESLint
  1. Unexpected console statement
  
