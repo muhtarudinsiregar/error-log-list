@@ -39,6 +39,15 @@
 1. `Syntax error or access violation: 1071 Specified key was too long; max key length is 767 bytes`
 
  https://laravel-news.com/laravel-5-4-key-too-long-error
+ 
+2. `Call to undefined method Tests\Feature\BookControllerTest::seeInDatabase()` in laravel 5.4
+```php
+  //change seeInDatabase()
+  $this->seeInDatabase('books', ['title' => 'My Books!']);
+  
+  //to assertDatabaseHas()
+  $this->assertDatabaseHas('books', ['title' => 'My Book!']);
+```
 
 ## NPM
 1. No such file or directory after publish npm packages globally
