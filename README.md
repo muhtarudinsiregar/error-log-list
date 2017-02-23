@@ -55,3 +55,8 @@
  add `#!/usr/bin/env node` in first line 
 
 
+## Lain-Lain
+
+1. cURL error 60: SSL certificate: unable to get local issuer certificate
+
+ http://stackoverflow.com/questions/29822686/curl-error-60-ssl-certificate-unable-to-get-local-issuer-certificate
