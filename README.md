@@ -48,6 +48,9 @@
   //to assertDatabaseHas()
   $this->assertDatabaseHas('books', ['title' => 'My Book!']);
 ```
+## Node
+1. Error when testing array with assert.equal(). use assert.deepEqual instead assert.equal()
+ http://stackoverflow.com/questions/13225274/the-difference-between-assert-equal-and-assert-deepequal-in-javascript-testing-w
 
 ## NPM
 1. No such file or directory after publish npm packages globally
