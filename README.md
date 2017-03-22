@@ -1,5 +1,5 @@
 <h1 align="center">Error List</h1>
-===
+
 
 ## Angular 2
 1. Shared Data from other component in services
@@ -48,6 +48,12 @@
   //to assertDatabaseHas()
   $this->assertDatabaseHas('books', ['title' => 'My Book!']);
 ```
+
+## PHP
+ 1. A non-empty PSR-4 prefix must end with a namespace separator
+ 
+ http://stackoverflow.com/questions/21463421/a-non-empty-psr-4-prefix-must-end-with-a-namespace-separator
+
 ## Node
 1. Error when testing array with assert.equal(). use assert.deepEqual instead assert.equal()
  http://stackoverflow.com/questions/13225274/the-difference-between-assert-equal-and-assert-deepequal-in-javascript-testing-w
